@@ -57,7 +57,7 @@ export default function Testimonials() {
       />
 
       <div className="max-w-4xl mx-auto">
-        <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 relative">
+        <div className="bg-white rounded-2xl shadow-md p-8 md:p-12 relative">
           <Quote className="absolute top-8 left-8 text-secondary/20" size={48} />
 
           <div className="relative z-10">

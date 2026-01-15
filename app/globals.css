@@ -9,9 +9,9 @@
     --color-primary: #0A2463;
     --color-primary-light: #0D2F7E;
     --color-primary-dark: #071B4A;
-    --color-secondary: #FF6B35;
-    --color-secondary-light: #FF8555;
-    --color-secondary-dark: #E55520;
+    --color-secondary: #FF9800;
+    --color-secondary-light: #FFB340;
+    --color-secondary-dark: #E68900;
     --color-accent: #2E4057;
     --color-accent-light: #3F5470;
     --color-accent-dark: #1F2B3E;
@@ -50,11 +50,11 @@
   }
 
   .btn-primary {
-    @apply bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
+    @apply bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-md;
   }
 
   .btn-secondary {
-    @apply bg-secondary hover:bg-secondary-dark text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
+    @apply bg-secondary hover:bg-secondary-dark text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-md;
   }
 
   .btn-outline {
@@ -62,7 +62,7 @@
   }
 
   .card-hover {
-    @apply transition-all duration-300 hover:shadow-2xl hover:-translate-y-1;
+    @apply transition-all duration-300 hover:shadow-md;
   }
 
   .section-title {

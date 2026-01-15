@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X, Phone, Mail, ChevronDown } from 'lucide-react';
 import Button from '@/components/ui/Button';
 
@@ -67,8 +68,19 @@ export default function Navigation() {
           <div className="flex items-center justify-between py-4">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center text-white font-bold text-xl">
-                QM
+              <div
+                className="relative flex-shrink-0 overflow-hidden"
+                style={{ width: '80px', height: '80px' }}
+              >
+                <Image
+                  src="/assets/images/app_logo.png"
+                  alt="Qlaat Al Madeena Transport Logo"
+                  width={80}
+                  height={80}
+                  className="object-contain"
+                  style={{ width: '100%', height: '100%' }}
+                  priority
+                />
               </div>
               <div>
                 <div className="font-heading font-bold text-xl text-primary leading-tight">
@@ -93,7 +105,7 @@ export default function Navigation() {
                       <ChevronDown size={16} />
                     </button>
                     <div
-                      className={`absolute top-full left-0 mt-2 w-56 bg-white shadow-xl rounded-lg py-2 transition-all duration-200 ${servicesOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+                      className={`absolute top-full left-0 mt-2 w-56 bg-white shadow-md rounded-lg py-2 transition-all duration-200 ${servicesOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
                         }`}
                     >
                       {link.submenu.map((sublink) => (

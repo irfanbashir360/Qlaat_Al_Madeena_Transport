@@ -27,8 +27,8 @@ export default function Button({
   const baseStyles = 'inline-flex items-center justify-center gap-2 font-semibold rounded-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary disabled:opacity-50 disabled:cursor-not-allowed';
 
   const variants = {
-    primary: 'bg-primary hover:bg-primary-dark text-white shadow-lg hover:shadow-xl transform hover:-translate-y-0.5',
-    secondary: 'bg-secondary hover:bg-secondary-dark text-white shadow-lg hover:shadow-xl transform hover:-translate-y-0.5',
+    primary: 'bg-primary hover:bg-primary-dark text-white shadow-md',
+    secondary: 'bg-secondary hover:bg-secondary-dark text-white shadow-md',
     outline: 'border-2 border-primary text-primary hover:bg-primary hover:text-white',
     ghost: 'text-primary hover:bg-primary/10',
   };

@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { ArrowRight, TruckIcon, Shield, Clock, CheckCircle2, Award, Zap, Globe } from 'lucide-react';
+import { ArrowRight, TruckIcon, Shield, Clock, Award, Zap, Globe } from 'lucide-react';
 import Button from '@/components/ui/Button';
 
 export default function Hero() {
@@ -50,7 +50,7 @@ export default function Hero() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             {/* Premium Badge */}
-            <div className={`inline-flex items-center gap-3 bg-white/10 backdrop-blur-xl px-8 py-4 rounded-full mb-10 border border-white/30 shadow-2xl transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
+            <div className={`inline-flex items-center gap-3 bg-white/10 backdrop-blur-xl px-8 py-4 rounded-full mb-10 border border-white/30 shadow-md transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
               <div className="w-8 h-8 bg-secondary/30 rounded-full flex items-center justify-center">
                 <Award className="text-secondary" size={18} />
               </div>
@@ -88,54 +88,50 @@ export default function Hero() {
 
             {/* Premium Trust Indicators */}
             <div className={`grid grid-cols-1 sm:grid-cols-4 gap-6 mb-12 max-w-5xl mx-auto transition-all duration-1000 delay-600 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-secondary/30 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
-                <div className="relative flex flex-col items-center gap-4 bg-white/10 backdrop-blur-xl px-6 py-8 rounded-3xl border border-white/20 hover:border-secondary/50 transition-all duration-300 hover:scale-105 hover:bg-white/15 shadow-2xl">
-                  <div className="w-16 h-16 bg-gradient-to-br from-secondary to-secondary-dark rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-secondary/50 transition-all duration-300 group-hover:rotate-6">
-                    <Shield className="text-white" size={32} />
+              <div className="group">
+                <div className="flex flex-col items-center gap-5 bg-white/15 backdrop-blur-md px-6 py-8 rounded-xl border border-white/30 hover:border-white/50 hover:bg-white/20 transition-all duration-300 shadow-md">
+                  <div className="w-14 h-14 bg-gradient-to-br from-secondary to-secondary-dark rounded-xl flex items-center justify-center">
+                    <Shield className="text-white" size={28} />
                   </div>
                   <div className="text-center">
-                    <div className="text-white font-bold text-xl mb-1">Licensed</div>
-                    <div className="text-white/70 text-sm">DED Authorized</div>
+                    <div className="text-white font-bold text-lg mb-1.5 tracking-tight">Licensed</div>
+                    <div className="text-white/80 text-xs font-medium uppercase tracking-wider">DED Authorized</div>
                   </div>
                 </div>
               </div>
 
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-secondary/30 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
-                <div className="relative flex flex-col items-center gap-4 bg-white/10 backdrop-blur-xl px-6 py-8 rounded-3xl border border-white/20 hover:border-secondary/50 transition-all duration-300 hover:scale-105 hover:bg-white/15 shadow-2xl">
-                  <div className="w-16 h-16 bg-gradient-to-br from-secondary to-secondary-dark rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-secondary/50 transition-all duration-300 group-hover:rotate-6">
-                    <Clock className="text-white" size={32} />
+              <div className="group">
+                <div className="flex flex-col items-center gap-5 bg-white/15 backdrop-blur-md px-6 py-8 rounded-xl border border-white/30 hover:border-white/50 hover:bg-white/20 transition-all duration-300 shadow-md">
+                  <div className="w-14 h-14 bg-gradient-to-br from-secondary to-secondary-dark rounded-xl flex items-center justify-center">
+                    <Clock className="text-white" size={28} />
                   </div>
                   <div className="text-center">
-                    <div className="text-white font-bold text-xl mb-1">24/7</div>
-                    <div className="text-white/70 text-sm">Always Ready</div>
+                    <div className="text-white font-bold text-lg mb-1.5 tracking-tight">24/7</div>
+                    <div className="text-white/80 text-xs font-medium uppercase tracking-wider">Always Ready</div>
                   </div>
                 </div>
               </div>
 
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-secondary/30 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
-                <div className="relative flex flex-col items-center gap-4 bg-white/10 backdrop-blur-xl px-6 py-8 rounded-3xl border border-white/20 hover:border-secondary/50 transition-all duration-300 hover:scale-105 hover:bg-white/15 shadow-2xl">
-                  <div className="w-16 h-16 bg-gradient-to-br from-secondary to-secondary-dark rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-secondary/50 transition-all duration-300 group-hover:rotate-6">
-                    <TruckIcon className="text-white" size={32} />
+              <div className="group">
+                <div className="flex flex-col items-center gap-5 bg-white/15 backdrop-blur-md px-6 py-8 rounded-xl border border-white/30 hover:border-white/50 hover:bg-white/20 transition-all duration-300 shadow-md">
+                  <div className="w-14 h-14 bg-gradient-to-br from-secondary to-secondary-dark rounded-xl flex items-center justify-center">
+                    <TruckIcon className="text-white" size={28} />
                   </div>
                   <div className="text-center">
-                    <div className="text-white font-bold text-xl mb-1">50+ Fleet</div>
-                    <div className="text-white/70 text-sm">Modern Vehicles</div>
+                    <div className="text-white font-bold text-lg mb-1.5 tracking-tight">50+ Fleet</div>
+                    <div className="text-white/80 text-xs font-medium uppercase tracking-wider">Modern Vehicles</div>
                   </div>
                 </div>
               </div>
 
-              <div className="group relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-secondary/30 to-transparent rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
-                <div className="relative flex flex-col items-center gap-4 bg-white/10 backdrop-blur-xl px-6 py-8 rounded-3xl border border-white/20 hover:border-secondary/50 transition-all duration-300 hover:scale-105 hover:bg-white/15 shadow-2xl">
-                  <div className="w-16 h-16 bg-gradient-to-br from-secondary to-secondary-dark rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-secondary/50 transition-all duration-300 group-hover:rotate-6">
-                    <Globe className="text-white" size={32} />
+              <div className="group">
+                <div className="flex flex-col items-center gap-5 bg-white/15 backdrop-blur-md px-6 py-8 rounded-xl border border-white/30 hover:border-white/50 hover:bg-white/20 transition-all duration-300 shadow-md">
+                  <div className="w-14 h-14 bg-gradient-to-br from-secondary to-secondary-dark rounded-xl flex items-center justify-center">
+                    <Globe className="text-white" size={28} />
                   </div>
                   <div className="text-center">
-                    <div className="text-white font-bold text-xl mb-1">UAE Wide</div>
-                    <div className="text-white/70 text-sm">Full Coverage</div>
+                    <div className="text-white font-bold text-lg mb-1.5 tracking-tight">UAE Wide</div>
+                    <div className="text-white/80 text-xs font-medium uppercase tracking-wider">Full Coverage</div>
                   </div>
                 </div>
               </div>
@@ -167,7 +163,7 @@ export default function Hero() {
                   href="/quote"
                   variant="secondary"
                   size="lg"
-                  className="relative shadow-2xl hover:shadow-secondary/50 transform hover:scale-105 transition-all duration-300 text-lg px-10 py-5 font-bold"
+                  className="relative shadow-md transform hover:scale-105 transition-all duration-300 text-lg px-10 py-5 font-bold"
                 >
                   <span className="flex items-center gap-3">
                     <Zap size={22} />
@@ -179,21 +175,15 @@ export default function Hero() {
 
               <Button
                 href="/services"
-                variant="outline"
+                variant="ghost"
                 size="lg"
-                className="bg-white/10 backdrop-blur-xl border-2 border-white/40 text-white hover:bg-white hover:text-primary shadow-2xl hover:shadow-white/20 transform hover:scale-105 transition-all duration-300 text-lg px-10 py-5 font-semibold"
+                className="bg-white/10 backdrop-blur-xl border-2 border-white/40 text-white hover:bg-white hover:text-primary shadow-md transform hover:scale-105 transition-all duration-300 text-lg px-10 py-5 font-semibold"
               >
                 <span className="flex items-center gap-3">
                   Explore Services
                   <ArrowRight size={22} className="group-hover:translate-x-1 transition-transform" />
                 </span>
               </Button>
-            </div>
-
-            {/* Trust Badge */}
-            <div className={`mt-12 inline-flex items-center gap-3 text-white/80 text-sm transition-all duration-1000 delay-900 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-              <CheckCircle2 className="text-secondary" size={20} />
-              <span>Trusted by 500+ businesses across UAE</span>
             </div>
           </div>
 
@@ -222,7 +212,7 @@ export default function Hero() {
           <path
             d="M0 0L48 10C96 20 192 40 288 46.7C384 53 480 47 576 43.3C672 40 768 40 864 46.7C960 53 1056 67 1152 73.3C1248 80 1344 80 1392 80L1440 80V120H1392C1344 120 1248 120 1152 120C1056 120 960 120 864 120C768 120 672 120 576 120C480 120 384 120 288 120C192 120 96 120 48 120H0V0Z"
             fill="white"
-            className="drop-shadow-2xl"
+            className="drop-shadow-md"
           />
         </svg>
 

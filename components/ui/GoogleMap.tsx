@@ -76,7 +76,7 @@ const GoogleMapComponent: React.FC<GoogleMapProps> = ({
                     href={googleMapsUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="pointer-events-auto bg-white hover:bg-secondary text-primary hover:text-white px-6 py-3 rounded-lg shadow-lg font-semibold flex items-center gap-2 transition-all duration-300 transform hover:scale-105 opacity-0 group-hover:opacity-100"
+                            className="pointer-events-auto bg-white hover:bg-secondary text-primary hover:text-white px-6 py-3 rounded-lg shadow-md font-semibold flex items-center gap-2 transition-all duration-300 transform hover:scale-105 opacity-0 group-hover:opacity-100"
                     onClick={(e) => e.stopPropagation()}
                 >
                     <MapPin size={20} />
@@ -91,7 +91,7 @@ const GoogleMapComponent: React.FC<GoogleMapProps> = ({
                     href={googleMapsUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-white hover:bg-secondary text-primary hover:text-white px-4 py-2 rounded-lg shadow-lg font-medium flex items-center gap-2 transition-all duration-300 text-sm"
+                            className="bg-white hover:bg-secondary text-primary hover:text-white px-4 py-2 rounded-lg shadow-md font-medium flex items-center gap-2 transition-all duration-300 text-sm"
                 >
                     <MapPin size={16} />
                     <span>View on Maps</span>

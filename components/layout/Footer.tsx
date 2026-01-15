@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin, Youtube } from 'lucide-react';
 
 export default function Footer() {
@@ -33,8 +34,18 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center text-primary font-bold text-xl">
-                QM
+              <div
+                className="relative flex-shrink-0 overflow-visible bg-white rounded-lg flex items-center justify-center"
+                style={{ width: '64px', height: '64px', padding: '6px' }}
+              >
+                <Image
+                  src="/assets/images/app_logo.png"
+                  alt="Qlaat Al Madeena Transport Logo"
+                  width={96}
+                  height={96}
+                  className="object-contain"
+                  style={{ width: '120%', height: '120%', maxWidth: 'none', maxHeight: 'none' }}
+                />
               </div>
               <div>
                 <div className="font-heading font-bold text-lg leading-tight">
