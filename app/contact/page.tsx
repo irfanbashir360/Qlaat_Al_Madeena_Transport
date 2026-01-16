@@ -53,8 +53,8 @@ export default function ContactPage() {
     {
       icon: <Mail size={24} />,
       title: 'Email',
-      content: 'Dubaiuaeproservices@gmail.com',
-      link: 'mailto:Dubaiuaeproservices@gmail.com',
+      content: 'contact@qamtransport.com',
+      link: 'mailto:contact@qamtransport.com',
     },
     {
       icon: <MapPin size={24} />,

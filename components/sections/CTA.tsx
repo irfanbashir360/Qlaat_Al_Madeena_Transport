@@ -52,7 +52,7 @@ export default function CTA() {
             </div>
           </a>
           <a
-            href="mailto:Dubaiuaeproservices@gmail.com"
+            href="mailto:contact@qamtransport.com"
             className="flex items-center justify-center gap-3 bg-white/10 backdrop-blur-sm px-6 py-4 rounded-lg hover:bg-white/20 transition-colors"
           >
             <Mail className="text-secondary" size={24} />

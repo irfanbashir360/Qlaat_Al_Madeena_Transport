@@ -48,9 +48,9 @@ export default function Navigation() {
               <Phone size={16} />
               <span>+971-54-7502525</span>
             </a>
-            <a href="mailto:Dubaiuaeproservices@gmail.com" className="hidden sm:flex items-center gap-2 hover:text-secondary transition-colors">
+            <a href="mailto:contact@qamtransport.com" className="hidden sm:flex items-center gap-2 hover:text-secondary transition-colors">
               <Mail size={16} />
-              <span>Dubaiuaeproservices@gmail.com</span>
+              <span>contact@qamtransport.com</span>
             </a>
           </div>
           <div className="flex items-center gap-4">

@@ -304,7 +304,7 @@ npm run build
 - **Register No**: 2756051
 - **Location**: Al-Khabeesi area, Dubai, UAE
 - **Contact**: +971-54-7502525
-- **Email**: Dubaiuaeproservices@gmail.com
+- **Email**: contact@qamtransport.com
 
 ## License
 

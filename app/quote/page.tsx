@@ -433,8 +433,8 @@ export default function QuotePage() {
                 +971-54-7502525
               </a>{' '}
               or email{' '}
-              <a href="mailto:Dubaiuaeproservices@gmail.com" className="text-primary hover:text-secondary font-semibold">
-                Dubaiuaeproservices@gmail.com
+              <a href="mailto:contact@qamtransport.com" className="text-primary hover:text-secondary font-semibold">
+                contact@qamtransport.com
               </a>
             </p>
           </div>

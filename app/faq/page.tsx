@@ -33,7 +33,7 @@ export default function FAQPage() {
       questions: [
         {
           q: 'How do I get a quote?',
-          a: 'You can get a quote by filling out our online quote request form, calling us at +971-54-7502525, or emailing us at Dubaiuaeproservices@gmail.com. We typically respond within a few hours.',
+          a: 'You can get a quote by filling out our online quote request form, calling us at +971-54-7502525, or emailing us at contact@qamtransport.com. We typically respond within a few hours.',
         },
         {
           q: 'What factors affect the transport cost?',

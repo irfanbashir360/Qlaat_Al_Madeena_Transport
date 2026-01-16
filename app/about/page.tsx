@@ -243,8 +243,8 @@ export default function AboutPage() {
                 </p>
                 <p>
                   <strong>Email:</strong>{' '}
-                  <a href="mailto:Dubaiuaeproservices@gmail.com" className="text-secondary hover:underline">
-                    Dubaiuaeproservices@gmail.com
+                  <a href="mailto:contact@qamtransport.com" className="text-secondary hover:underline">
+                    contact@qamtransport.com
                   </a>
                 </p>
               </div>
