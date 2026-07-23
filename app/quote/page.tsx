@@ -429,8 +429,8 @@ export default function QuotePage() {
           <div className="mt-8 text-center text-gray-600">
             <p>
               Need help? Call us at{' '}
-              <a href="tel:+971547502525" className="text-primary hover:text-secondary font-semibold">
-                +971-54-7502525
+              <a href="tel:0555353942" className="text-primary hover:text-secondary font-semibold">
+                0555353942
               </a>{' '}
               or email{' '}
               <a href="mailto:contact@qamtransport.com" className="text-primary hover:text-secondary font-semibold">

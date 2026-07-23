@@ -47,8 +47,8 @@ export default function ContactPage() {
     {
       icon: <Phone size={24} />,
       title: 'Phone',
-      content: '+971-54-7502525',
-      link: 'tel:+971547502525',
+      content: '0555353942',
+      link: 'tel:0555353942',
     },
     {
       icon: <Mail size={24} />,
@@ -59,7 +59,7 @@ export default function ContactPage() {
     {
       icon: <MapPin size={24} />,
       title: 'Location',
-      content: 'Al-Khabeesi area, Dubai, UAE',
+      content: '203 Alphamed Building, Abu Hail, Dubai, UAE',
       link: '#',
     },
     {
@@ -180,7 +180,7 @@ export default function ContactPage() {
                   <h3 className="font-semibold text-primary mb-2">Address</h3>
                   <p className="text-gray-700">
                     Qlaat Al Madeena Transport L.L.C<br />
-                    Al-Khabeesi area<br />
+                    203 Alphamed Building, Abu Hail<br />
                     Dubai, United Arab Emirates
                   </p>
                 </div>
@@ -199,10 +199,10 @@ export default function ContactPage() {
               <h3 className="text-xl font-heading font-bold mb-4">24/7 Emergency Service</h3>
               <p className="mb-4">For urgent transport requirements, call us anytime:</p>
               <a
-                href="tel:+971547502525"
+                href="tel:0555353942"
                 className="text-2xl font-bold hover:text-secondary transition-colors"
               >
-                +971-54-7502525
+                0555353942
               </a>
             </Card>
           </div>
@@ -219,7 +219,7 @@ export default function ContactPage() {
             Chat with us directly on WhatsApp for quick responses
           </p>
           <Button
-            href="https://wa.me/971547502525"
+            href="https://wa.me/0555353942"
             variant="secondary"
             size="lg"
           >

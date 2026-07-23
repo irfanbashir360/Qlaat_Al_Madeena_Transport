@@ -88,7 +88,7 @@ export default function AboutPage() {
                 <strong>Qlaat Al Madeena Transport L.L.C S.O.C</strong> (قلعة المدينة للنقليات) is a Dubai-based logistics and transportation company specializing in professional cargo transport services across the UAE.
               </p>
               <p>
-                Licensed by Dubai Economic Development, we operate with full legal authorization and maintain the highest standards of safety and professionalism in all our operations. Our strategic location in the Al-Khabeesi area of Dubai enables us to provide efficient transport services throughout the emirate and beyond.
+                Licensed by Dubai Economic Development, we operate with full legal authorization and maintain the highest standards of safety and professionalism in all our operations. Our strategic location at 203 Alphamed Building, Abu Hail, Dubai enables us to provide efficient transport services throughout the emirate and beyond.
               </p>
               <p>
                 With over a decade of experience in the logistics industry, we have built a reputation for reliability, punctuality, and excellence. Our modern fleet and experienced team ensure that your cargo is transported safely and delivered on time, every time.
@@ -232,13 +232,13 @@ export default function AboutPage() {
               <p className="text-lg">
                 <strong>Qlaat Al Madeena Transport L.L.C</strong>
               </p>
-              <p>Al-Khabeesi area</p>
+              <p>203 Alphamed Building, Abu Hail</p>
               <p>Dubai, United Arab Emirates</p>
               <div className="pt-4 space-y-2">
                 <p>
                   <strong>Phone:</strong>{' '}
-                  <a href="tel:+971547502525" className="text-secondary hover:underline">
-                    +971-54-7502525
+                  <a href="tel:0555353942" className="text-secondary hover:underline">
+                    0555353942
                   </a>
                 </p>
                 <p>

@@ -36,7 +36,7 @@ const GoogleMapComponent: React.FC<GoogleMapProps> = ({
     }, []);
 
     // Create Google Maps URL to open in new tab
-    const address = 'Al-Khabeesi area, Dubai, UAE';
+    const address = '203 Alphamed Building, Abu Hail, Dubai, UAE';
     const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${center.lat},${center.lng}`;
 
     // Use Google Maps embed (works without API key for basic embeds)

@@ -125,17 +125,17 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin size={20} className="mt-1 flex-shrink-0 text-secondary" />
                 <div>
-                  <p className="text-gray-300">Al-Khabeesi area</p>
+                  <p className="text-gray-300">203 Alphamed Building, Abu Hail</p>
                   <p className="text-gray-300">Dubai, UAE</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={20} className="flex-shrink-0 text-secondary" />
                 <a
-                  href="tel:+971547502525"
+                  href="tel:0555353942"
                   className="text-gray-300 hover:text-secondary transition-colors"
                 >
-                  +971-54-7502525
+                  0555353942
                 </a>
               </div>
               <div className="flex items-center gap-3">

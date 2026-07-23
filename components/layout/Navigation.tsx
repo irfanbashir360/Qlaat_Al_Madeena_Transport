@@ -44,9 +44,9 @@ export default function Navigation() {
       <div className="bg-primary text-white py-2 text-sm">
         <div className="container-custom flex flex-wrap justify-between items-center gap-2">
           <div className="flex items-center gap-4">
-            <a href="tel:+971547502525" className="flex items-center gap-2 hover:text-secondary transition-colors">
+            <a href="tel:0555353942" className="flex items-center gap-2 hover:text-secondary transition-colors">
               <Phone size={16} />
-              <span>+971-54-7502525</span>
+              <span>0555353942</span>
             </a>
             <a href="mailto:contact@qamtransport.com" className="hidden sm:flex items-center gap-2 hover:text-secondary transition-colors">
               <Mail size={16} />

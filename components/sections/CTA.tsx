@@ -42,13 +42,13 @@ export default function CTA() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
           <a
-            href="tel:+971547502525"
+            href="tel:0555353942"
             className="flex items-center justify-center gap-3 bg-white/10 backdrop-blur-sm px-6 py-4 rounded-lg hover:bg-white/20 transition-colors"
           >
             <Phone className="text-secondary" size={24} />
             <div className="text-left">
               <div className="text-sm text-gray-200">Call Us Now</div>
-              <div className="font-semibold">+971-54-7502525</div>
+              <div className="font-semibold">0555353942</div>
             </div>
           </a>
           <a

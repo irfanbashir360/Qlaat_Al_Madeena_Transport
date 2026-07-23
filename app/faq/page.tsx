@@ -33,7 +33,7 @@ export default function FAQPage() {
       questions: [
         {
           q: 'How do I get a quote?',
-          a: 'You can get a quote by filling out our online quote request form, calling us at +971-54-7502525, or emailing us at contact@qamtransport.com. We typically respond within a few hours.',
+          a: 'You can get a quote by filling out our online quote request form, calling us at 0555353942, or emailing us at contact@qamtransport.com. We typically respond within a few hours.',
         },
         {
           q: 'What factors affect the transport cost?',
@@ -153,7 +153,7 @@ export default function FAQPage() {
               Contact Us
             </Button>
             <Button
-              href="tel:+971547502525"
+              href="tel:0555353942"
               variant="outline"
               size="lg"
               className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-primary"
